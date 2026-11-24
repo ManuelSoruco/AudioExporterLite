@@ -1,0 +1,66 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "2.0.0",
+	"FriendlyName": "Audio Exporter",
+	"Description": "Batch export MetaSounds, SoundCues, and SoundWaves to .wav files with streamlined procedural-audio controls.",
+	"Category": "Audio",
+	"CreatedBy": "AudioFactory",
+	"CreatedByURL": "https://audiofactory.studio/",
+	"DocsURL": "https://audiofactory.studio/plugins/#exporterfree",
+	"MarketplaceURL": "com.epicgames.launcher://ue/Fab/product/47dd15161b1c413e83d84cc03dcf805a",
+	"SupportURL": "https://audiofactory.studio/contact/",
+	"EngineVersion": "5.6.0",
+	"SupportedTargetPlatforms": ["Win64", "Linux", "Mac"],
+	"CanContainContent": false,
+	"Modules": [
+		{
+			"Name": "AudioExporterUtils",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		},
+		{
+			"Name": "AudioExporterRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		},
+		{
+			"Name": "AudioExporterUITheme",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		},
+		{
+			"Name": "AudioExporterUI",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		},
+		{
+			"Name": "AudioExporter",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		},
+		{
+			"Name": "AudioExporterTests",
+			"Type": "Editor",
+			"LoadingPhase": "None",
+			"PlatformAllowList": ["Win64", "Linux", "Mac"]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Metasound",
+			"Enabled": true
+		},
+		{
+			"Name": "AudioWidgets",
+			"Enabled": true
+		}
+	],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false
+}

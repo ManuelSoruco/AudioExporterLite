@@ -1,0 +1,21 @@
+Binaries/
+Intermediate/
+DerivedDataCache/
+.vs/
+*.orig
+.idea/
+
+# Binary files never go to git (images, audio, archives, builds).
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.wav
+*.zip
+*.uasset
+*.umap
+*.dll
+*.pdb
+*.exe
+Saved/
