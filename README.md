@@ -119,7 +119,7 @@ This plugin is shared as is. We do not review pull requests or issues. Fork it a
 ## Version history
 
 - **2.0 (16 September 2026).** Rebuilt fully native in C++ and Slate. 32-bit float rendering engine. Sound Wave export. Optional peak normalization. Engine start-up silence removed from every file. Text export log. Supported on Unreal Engine 5.6, 5.7 and 5.8.
-- **1.0.1 (July 2025).** Builds for Unreal Engine 5.4 and 5.5.
+- **1.0.1 (July 2025).** Builds for Unreal Engine 5.4 and 5.5. Minor bug fixes.
 - **1.0 (26 May 2023).** First release on Fab. Builds for Unreal Engine 5.0 to 5.3.
 
 ## License
