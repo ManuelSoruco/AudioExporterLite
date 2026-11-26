@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshots/AudioExporter.png" width="520" alt="Audio Exporter">
+  <img src="https://github.com/ManuelSoruco/AudioExporterLite/releases/download/v2.0.0/AudioExporter.png" width="520" alt="Audio Exporter">
 </p>
 
 <h1 align="center">Audio Exporter</h1>
@@ -38,7 +38,7 @@ Procedural audio in Unreal Engine - MetaSounds and SoundCues - is powerful but e
 - **Custom Export Path** - Choose where your WAVs land, or use the auto-timestamped default location. Exported WAVs are grouped in an `Audio` subfolder inside the session folder, next to the report
 
 <p align="center">
-  <img src="Screenshots/AudioExporter.png" width="480" alt="Audio Exporter Settings Window">
+  <img src="https://github.com/ManuelSoruco/AudioExporterLite/releases/download/v2.0.0/AudioExporter.png" width="480" alt="Audio Exporter Settings Window">
 </p>
 
 ## Installation
