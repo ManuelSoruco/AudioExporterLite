@@ -102,9 +102,9 @@ AudioExporter/
 
 The `AudioExporterTests` module holds the automation tests, under `AudioFactory.AudioExporter`. It loads only when Unreal starts an automation run, so it never shows up in normal use. Some tests need sample sounds that are not in this repository and fail without them.
 
-## Contributing
+## Make it yours
 
-Issues and pull requests are welcome, for example new output formats or support for more asset types.
+This plugin is shared as is. We do not review pull requests or issues. Fork it and change it however you like: the MIT License lets you use it in your own projects, commercial ones included.
 
 ## The AudioFactory plugin family
 
